@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    /* display: flex; */
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+}
+.header {
+    display: flex;
+    flex-direction: row;
+
+    
+    
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: black; */
+}
+.nav-bar > .logo {
+    display: flex;
+    justify-self: flex-start;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.nav-bar > .links > a{
+    text-decoration: none;
+    color: black;
+    margin-left: 90px;
+}
+.nav-bar iconify-icon{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 1060px;
+top: 38px;
+}
+
+.cart-shop{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1167px;
+    top: 40px;
+    
+}
+.profile-icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1274px;
+    top: 38px;
+}
+.main img{
+
+height: 100% !important;
+width: 100%;
+display: block;
+/* background-size: contain; */
+/* overflow: hidden; */
+}
+.main{
+    height: 92% !important;
+}
